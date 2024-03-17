@@ -1,0 +1,223 @@
+@media (max-width: 1215px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .banner-content {
+        max-width: 400px;
+    }
+
+    .title-one {
+        font-size: 38px;
+    }
+
+    .outer {
+        max-width: 450px;
+        max-height: 297px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .grid {
+        gap: 20px;
+    }
+
+    .audience-list {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .topic .mini-title {
+        margin-bottom: 10px;
+    }
+
+    .title-two {
+        font-size: 26px;
+    }
+
+    .mini-title {
+        font-size: 18px;
+    }
+
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .question {
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .countdown .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-content {
+        margin: 0 auto;
+        max-width: 90%;
+        align-items: center;
+    }
+
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-img {
+        justify-content: center;
+    }
+
+    .secrets-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-section .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outer {
+        width: 100%;
+        order: 2;
+    }
+
+    .video-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .formats-content {
+        margin: 60px auto;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .offer-section .grid {
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topic {
+        max-width: 80%;
+    }
+    
+    .footer .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 689px) {
+    .audience-list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 636px) {
+    .countdown-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 478px) {
+    .title-one {
+        font-size: 34px;
+    }
+
+    .box {
+        padding: 60px 40px;
+    }
+
+    .cta-button {
+        margin: 10px 0;
+        padding: 20px;
+    
+        border-radius: 50px;
+        text-decoration: none;
+    
+        max-width: 340px;
+        height: 50px;
+    
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 428px) {
+    .title-one {
+        font-size: 30px;
+    }
+
+    .box {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 386px) {
+    .box {
+        padding: 40px 20px;
+    }
+
+    .safely-payment {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 340px) {
+    .box {
+        padding: 40px 10px;
+    }
+
+    .offer-section img {
+        max-width: 200px;
+    }
+
+    .pricing .price {
+        font-size: 45px;
+    }
+
+    .pricing .promotional-text {
+        font-size: 20px;
+    }
+
+    .pricing .installment {
+        font-size: 16px;
+    }
+
+    .safely-payment {
+        font-size: 10px;
+    }
+}
+
+
+
+
