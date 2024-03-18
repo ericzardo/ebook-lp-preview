@@ -170,10 +170,10 @@
     
         font-size: 16px;
     }
-
+/* 
     .banner, .journey-section {
         background-attachment: unset;
-    }
+    } */
 }
 
 @media (max-width: 428px) {
