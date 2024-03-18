@@ -311,7 +311,7 @@ section {
 .banner {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.671), rgba(133, 113, 2, 0.185)), url("../imgs/backgrounds/1.png");;
 
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -408,7 +408,7 @@ section {
     /* linear-gradient(rgb(2, 85, 154, 0.5), rgba(0,0,0,0.8)) */
     background-image: linear-gradient(110deg, rgba(0, 42, 77, 0.74), rgba(26, 26, 26, 0.603)), url("../imgs/backgrounds/2.png");
 
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -547,7 +547,7 @@ section {
     background-image: linear-gradient(rgba(0, 62, 112, 0.5), rgba(0,0,0,0.8)), url("../imgs/backgrounds/3.png");
 
 
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
