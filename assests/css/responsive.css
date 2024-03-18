@@ -170,6 +170,10 @@
     
         font-size: 16px;
     }
+
+    .banner, .audience-section, .video-section, .journey-section {
+        background-attachment: unset;
+    }
 }
 
 @media (max-width: 428px) {
