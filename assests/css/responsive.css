@@ -171,7 +171,7 @@
         font-size: 16px;
     }
 
-    .banner, .audience-section, .video-section, .journey-section {
+    .banner, .journey-section {
         background-attachment: unset;
     }
 }
