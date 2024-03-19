@@ -31,7 +31,7 @@ const updateForIOS = () => {
 
         return
     }
-    // if (!isIOS()) return
+    if (!isIOS()) return
     
 
     banner.style.backgroundAttachment = "scroll";
