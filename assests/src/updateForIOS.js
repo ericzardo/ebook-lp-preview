@@ -1,16 +1,9 @@
 const isIOS = () => {    
-    var ua = navigator.userAgent.toLowerCase();
+    var ua = navigator.userAgent;
 
-    var iosArray = ['iphone', 'ipod'];
-
-    iosArray.forEach(item => {
-
-        if (ua.indexOf(iosArray[item]) != -1)
-        {
-            return true
-        }
-
-    });
+    if (ua.includes("iPhone") || ua.includes("iPad") || ua.includes("iPod")) {
+        return true
+    }
 
     return false;
 }
@@ -31,7 +24,10 @@ const updateForIOS = () => {
 
         return
     }
-    if (!isIOS()) return
+    if (!isIOS()) {
+        console.log("Not IOS")
+        return
+    }
     
 
     banner.style.backgroundAttachment = "scroll";
