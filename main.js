@@ -1,10 +1,14 @@
 import { toggleAnswer } from "./assests/src/toggleAnswer.js";
 import { updateTimer } from "./assests/src/updateTimer.js";
+import { updateForIOS } from "./assests/src/updateForIOS.js";
 
 document.addEventListener('DOMContentLoaded', function () {
 
   const offerTimerSeconds = 60 * 13 + 37;
   updateTimer(offerTimerSeconds);
+
+  window.addEventListener('resize', updateForIOS);
+  updateForIOS()
 
   document.querySelectorAll('.question').forEach(question => {
     question.addEventListener('click', () => {
@@ -12,10 +16,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      console.log(entry)
+
       if (entry.isIntersecting) {
         entry.target.classList.add("show");
       }
@@ -38,3 +41,4 @@ document.addEventListener('DOMContentLoaded', function () {
   hiddenTopElements.forEach((el) => observer.observe(el));
   
 });
+
