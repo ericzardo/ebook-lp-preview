@@ -70,7 +70,7 @@
     width: 100%;
     height: auto;
 
-    max-width: 550px;
+    max-width: 700px;
 }
 
 .banner .banner-content {
@@ -426,6 +426,12 @@
 
 
     box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.5);
+
+    transition: transform .3s ease-in-out;
+}
+
+.testimonial-content .testimonial-box:hover {
+    transform: scale(1.1);
 }
   
 .testimonial-content .testimonial-box:before {
@@ -451,6 +457,11 @@
     left: 20px;
 
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+    transition: transform .3s ease-in-out;
+}
+.testimonial-box .client-image:hover {
+    transform: scale(1.2);
 }
 
 .testimonial-box .testimonial-infos {
@@ -492,12 +503,23 @@
 
 /* OFFER SECTION CSS */
 
+.offer-section {
+    background-image: linear-gradient(rgba(0, 62, 112, 0.5), rgba(0,0,0,0.8)), url("../imgs/backgrounds/2.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .offer-section .container {
     align-items: center;
 }
 .offer-section .box {
     max-width: 940px;
     width: 100%;
+
+    border-radius: 10px;
 
     padding: 60px;
 

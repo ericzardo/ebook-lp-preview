@@ -70,6 +70,10 @@ section {
     color: var(--yellow-primary);
 }
 
+.blue-text {
+    color: var(--blue-secondary);
+}
+
 .red-text {
     color: #FF3636;
     text-decoration: line-through;

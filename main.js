@@ -1,6 +1,7 @@
 import { toggleAnswer } from "./assests/src/toggleAnswer.js";
 import { updateTimer } from "./assests/src/updateTimer.js";
 import { updateForIOS } from "./assests/src/updateForIOS.js";
+import { observer } from "./assests/src/observer.js";
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -15,18 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
       toggleAnswer(question);
     });
   });
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      }
-      // else {
-      //   entry.target.classList.remove("show");
-      // }
-    })
-  })
 
   const hiddenLeftElements = document.querySelectorAll(".hidden-left");
   hiddenLeftElements.forEach((el) => observer.observe(el));
