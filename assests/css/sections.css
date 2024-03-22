@@ -1,0 +1,645 @@
+/* COUNTDOWN SECTION CSS */
+
+.countdown-section {
+    padding: 20px 0;
+    min-height: auto;
+
+    background: var(--strong-black);
+
+    box-shadow: 0px 3px 14px 1px rgba(0,0,0,0.6);
+
+    position: relative;
+    z-index: 1000;
+}
+
+.countdown-section .countdown-title {
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.countdown-section .countdown-content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    gap: 20px;
+}
+
+.countdown-content .countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-item .countdown-value {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--yellow-primary);;
+}
+
+.countdown-item .countdown-label {
+    color: #656565;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* END COUNTDOWN SECTION */
+
+
+
+
+/* BANNER SECTION CSS */
+
+.banner {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.671), rgba(133, 113, 2, 0.185)), url("../imgs/backgrounds/1.png");;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 800px;
+
+    display: flex;
+
+}
+
+.banner .capa-ebook {
+    width: 100%;
+    height: auto;
+
+    max-width: 550px;
+}
+
+.banner .banner-content {
+    max-width: 550px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-content .banner-text {
+    margin: 60px 0 30px;
+}
+
+.banner .banner-img, .right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* END BANNER SECTION */
+
+
+
+
+/* SECRETS SECTION CSS */
+
+.secrets-section {
+    padding: 40px 0;
+    background: linear-gradient(to bottom, #1f1f1f 0%, var(--strong-black) 100%);
+}
+
+.secrets-section .secrets-list {
+    display: flex;
+    list-style: none;
+
+    justify-content: space-between;
+
+    margin: 70px 0 40px;
+
+    gap: 20px;
+}
+
+.secrets-list .secret-item {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 30px 15px;
+    gap: 10px;
+
+    border: 1px solid #02559a;
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 30px 3px #02559a;
+    transition: scale .3s ease-in;
+}
+
+.secret-item .secret-item-icon {
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: scale .3s ease-in;
+}
+
+.secret-item .secret-item-icon img {
+    max-width: 120px;
+}
+
+.secrets-list .secret-item:hover {
+    transform: scale(1.1);
+}
+
+/* END SECRETS SECTION */
+
+
+
+
+/* JOURNEY SECTION CSS */
+
+.journey-section {
+    background-image: linear-gradient(rgba(0, 62, 112, 0.5), rgba(0,0,0,0.8)), url("../imgs/backgrounds/3.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+} 
+
+.journey-section .skew-cc {
+    height: 40px;
+    bottom: 0;
+    background: linear-gradient(to right bottom, transparent 49%, var(--strong-black) 50%)
+}
+
+
+
+
+
+
+/* AUDIENCE SECTION CSS */
+
+.audience-section {
+    /* linear-gradient(rgba(1, 41, 73, 0.801), rgba(0,0,0,0.8)) */
+    /* linear-gradient(rgb(2, 85, 154, 0.5), rgba(0,0,0,0.8)) */
+    background-image: linear-gradient(110deg, rgba(0, 42, 77, 0.74), rgba(26, 26, 26, 0.603)), url("../imgs/backgrounds/2.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 20px;
+}
+
+.audience-section .skew-c {
+    height:40px;
+    top:0px;
+    background: linear-gradient(to left bottom, var(--strong-black) 49%, transparent 50%)
+}
+
+.audience-section .grid {
+    margin-top: 20px;
+}
+
+.audience-content .audience-list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    margin: 60px 0;
+}
+
+.audience-list .audience-item {
+    max-width: 550px;
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.audience-list .audience-item img {
+    max-width: 30px;
+}
+
+/* END AUDIENCE SECTION */
+
+
+
+
+/* VIDEO SECTION CSS */
+
+.video-section {
+    /* linear-gradient(rgba(1, 41, 73, 0.801), rgba(0,0,0,0.8)) */
+    /* linear-gradient(rgb(2, 85, 154, 0.5), rgba(0,0,0,0.8)) */
+    background-image: linear-gradient(110deg, rgba(0, 42, 77, 0.74), rgba(26, 26, 26, 0.603)), url("../imgs/backgrounds/2.png");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 20px;
+}
+
+.video-section .skew-cc {
+    height: 40px;
+    bottom: 0;
+    background: linear-gradient(to right bottom, transparent 49%, var(--secondary-black) 50%)
+}
+
+.video-section .outer {
+    max-width: 527px;
+    max-height: 297px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-section .outer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.video-section .video-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+
+    box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.video-section .video-player iframe, .video-section .video-player object, .video-section .video-player embed { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-section .video-content {
+    margin: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* END VIDEO SECTION */
+
+
+
+
+/* FORMATS SECTION CSS */
+
+.formats-section {
+    background: #1E1E1E;
+}
+
+.formats-section .formats-content {
+    margin: 60px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.formats-content .topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 600px;
+    /* max-height: 334px; */
+
+    border-radius: 20px 20px 0 0;
+    border-top: 4px solid #02559a;
+
+    padding: 20px 30px 40px;
+
+    background: linear-gradient(0deg, #161616, #1E1E1E);
+    box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.formats-content .topic:hover {
+    transform: scale(1.1);
+}
+
+.formats-content .topic .mini-title {
+    margin-bottom: 10px;
+}
+
+.formats-content .topic img {
+    max-width: 150px;
+    max-height: 140px;
+    width: 100%;
+
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.formats-content .topic:hover img {
+    transform: scale(1.2);
+}
+
+/* END FORMATS SECTION */
+
+
+
+
+/* JOURNEY SECTION CSS */
+
+.journey-section .journey-content {
+    max-width: 770px;
+    padding: 40px;
+    margin: 0 auto;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 25px;
+
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #1616162a 0%, #1515152a 100%);
+
+    box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.journey-section .journey-content .title-one {
+    padding: 0 20px;
+}
+
+.journey-section .journey-content .paragraph {
+    font-weight: 500;
+}
+
+/* END JOURNEY SECTION */
+
+
+
+
+/* TESTIMONIAL SECTION CSS */
+
+.testimonial-section .testimonial-content {
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.testimonial-content .testimonial-box {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 400px;
+    background: #1e1e1e;
+    border-radius: 40px;
+    padding: 10px 30px 40px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+    box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.5);
+}
+  
+.testimonial-content .testimonial-box:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #1e1e1e;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #1e1e1e;
+    border-bottom: 20px solid transparent;
+    left: 32px;
+    bottom: -24px;
+}
+
+.testimonial-box .client-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid #02559a;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial-box .testimonial-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-box .testimonial-infos span {
+    text-align: left;
+    margin-left: 90px;
+}
+
+.testimonial-box .testimonial-infos .client-name {
+    font-weight: 600;
+}
+
+.testimonial-box .testimonial-infos .testimonial-date {
+    font-size: 14px;
+    color: #02559a;
+}
+
+.testimonial-infos .classification {
+    max-width: 40%;
+}
+
+.testimonial-box .paragraph {
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 16px;
+
+    color: var(--white-color);
+}
+
+/* END TESTIMONIAL SECTION */
+
+
+
+
+/* OFFER SECTION CSS */
+
+.offer-section .container {
+    align-items: center;
+}
+.offer-section .box {
+    max-width: 940px;
+    width: 100%;
+
+    padding: 60px;
+
+    background: #161616;
+
+    box-shadow: 6px 6px 60px #000000;
+}
+
+.offer-section .box img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.offer-section .box img:hover {
+    transform: scale(1.1);
+}
+
+.offer-section .box .box-content {
+    max-width: 465px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-section .box .box-content span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .box-content .pricing {
+    margin: 30px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box .box-content.promotional-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box .box-content .price {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.box .box-content .installment {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.box .box-content .safely-payment {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* END OFFER SECTION */
+
+
+
+
+/* FAQ SECTION CSS */
+
+.faq-content {
+    margin-top: 40px;
+}
+
+.faq-content .faq-item {
+    margin-bottom: 10px;
+
+    border-radius: 3px;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+.faq-item .question {
+    padding: 10px;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+.faq-item .question i {
+    transition: transform 0.5s ease-in-out;
+}
+
+.faq-item .question.active i {
+    transform: rotate(315deg);
+}
+
+.faq-item .answer {
+    padding: 10px 20px 10px;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    color: var(--grey-color);
+
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+}
+
+.faq-item .answer.active {
+    opacity: 1;
+}
+
+/* END FAQ SECTION */
+
+
+
+
+/* FOOTER CSS */
+
+.footer {
+    padding: 20px;
+
+    min-height: 105px;
+
+    background: var(--strong-black);
+
+    box-shadow: 0px 3px 14px 1px rgba(0,0,0,0.6);
+}
+
+.footer .logo {
+    max-width: 60px;
+}
+
+/* END FOOTER */

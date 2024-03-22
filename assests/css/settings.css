@@ -1,0 +1,16 @@
+:root {
+    --yellow-primary: #FFD700;
+    --blue-primary: #011E6C;
+    --blue-secondary: #02559a;
+
+
+    --strong-black: #0f0f0f;
+    --primary-black: #161616;
+    --secondary-black: #1E1E1E;
+    --light-black: #272727;
+
+    --white-color: #e0e0e0;
+    --grey-color: #898989;
+
+    --primary-font: "Montserrat", sans-serif;
+}
